@@ -1,0 +1,171 @@
+body {
+  /* padding: 0px 50px; */
+  margin: 0px;
+  font-family: "Helvetica";
+  /* text-align: center; */
+}
+
+/* .main {
+  padding: 0px 50px;
+} */
+
+.one {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 10px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.one-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.content {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px 20px;
+  color: #f9faf8;
+}
+.one-image {
+  background-color: grey;
+  width: 400px;
+  height: 200px;
+}
+
+.two {
+  padding: 50px;
+}
+
+.two-heading {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-image {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+}
+
+.asdfghj {
+  background-color: grey;
+  width: 400px;
+  height: 200px;
+}
+
+.three {
+  /* padding: 50px; */
+  background-color: #e5e7eb;
+  padding: 100px 200px;
+}
+
+.quote {
+  font-size: 36px;
+  /* font-style: italic; */
+  /* font-weight: lighter; */
+  /* font-family: Helvetica, Arial, sans-serif; */
+  /* font-weight: lighter; */
+  font-style: italic;
+}
+
+.source {
+  text-align: right;
+  font-weight: bold;
+}
+
+.four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  /* width: 1000px; */
+  max-width: 800px;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.actionhead {
+  font-size: 24px;
+  font-weight: 900;
+}
+.actiondes {
+  color: #e5e7eb;
+  width: fit-;
+  /* max-width: 50%; */
+}
+
+.four .signup {
+  border: 1px solid white;
+  flex: 0 0 auto;
+}
+
+.footer,
+.one-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 21px;
+  padding: 48px;
+}
+
+/* .sign; */
