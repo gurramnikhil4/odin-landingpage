@@ -40,7 +40,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 72px 14px;
-  /* margin: 0 auto; */
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
@@ -134,7 +133,7 @@ a {
   align-items: center;
   background-color: #3882f6;
   color: #f9faf8;
-  /* width: 1000px; */
+  width: 1000px;
   max-width: 800px;
   gap: 16px;
   flex-wrap: wrap;
@@ -149,8 +148,6 @@ a {
 }
 .actiondes {
   color: #e5e7eb;
-  /* width: fit-; */
-  /* max-width: 50%; */
 }
 
 .four .signup {
@@ -171,5 +168,3 @@ a {
   font-size: 21px;
   padding: 48px;
 }
-
-/* .sign; */
