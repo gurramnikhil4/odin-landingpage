@@ -1,13 +1,7 @@
 body {
-  /* padding: 0px 50px; */
   margin: 0px;
   font-family: "Helvetica";
-  /* text-align: center; */
 }
-
-/* .main {
-  padding: 0px 50px;
-} */
 
 .one {
   background-color: #1f2937;
@@ -17,6 +11,9 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
 .logo {
@@ -42,20 +39,30 @@ a {
 .one-content {
   display: flex;
   justify-content: space-between;
-  padding: 50px 0px;
+  padding: 72px 14px;
+  /* margin: 0 auto; */
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 48px;
 }
-
+.left {
+  max-width: 50%;
+}
 .heading {
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: 24px;
 }
 
 .content {
   font-size: 18px;
   color: #e5e7eb;
+  margin-bottom: 12px;
 }
 
 .signup {
+  font-size: 18px;
   background-color: #3882f6;
   border-radius: 5px;
   border: 0;
@@ -142,7 +149,7 @@ a {
 }
 .actiondes {
   color: #e5e7eb;
-  width: fit-;
+  /* width: fit-; */
   /* max-width: 50%; */
 }
 
