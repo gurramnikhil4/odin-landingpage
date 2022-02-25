@@ -69,7 +69,7 @@ a {
 }
 
 .two {
-  padding: 50px;
+  margin: 50px auto 100px;
 }
 
 .two-heading {
@@ -82,7 +82,9 @@ a {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0 25px;
 }
 
 .card {
@@ -92,16 +94,10 @@ a {
 }
 .card-image {
   background-color: white;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: 3px solid #3882f6;
   border-radius: 5px;
-}
-
-.asdfghj {
-  background-color: grey;
-  width: 400px;
-  height: 200px;
 }
 
 .three {
